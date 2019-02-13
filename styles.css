@@ -1,0 +1,176 @@
+.backgroundClass {
+	background-image:url("background2.jpg");
+	background-repeat:no-repeat;
+	background-size:100%;
+}
+
+.topnav {
+	background-color: rgb(147, 36, 166);
+	height: 94px;
+	text-align: center;
+	float: center;
+}
+
+.topnav a {
+	float: center;
+	color: white;
+	padding: 30px 130px;
+	text-decoration: none;
+	font-size: 28px;
+	font-family: Candara;
+	display: inline-block;
+}
+
+.topnav a:hover {
+	background-color: rgb(238, 218, 241);
+	color: black;
+}
+
+.topnav a.active {
+	background-color: rgb(238, 218, 241);
+	color: black;
+}
+
+body {
+	background-color: rgb(238, 218, 241);
+}
+
+h1 {
+	color: rgb(74, 18, 84)
+}
+
+h3 {
+	color: rgb(74, 18, 84);
+	font-family: Candara;
+	font-size: 50px;
+}
+
+.portrait {
+	height: 350px;
+	padding: 75px 75px;
+}
+
+header {
+	background-color: rgb(147, 36, 166);
+}
+
+footer {
+	background-color: rgb(147, 36, 166);
+}
+
+#column1 {
+	float:left;
+	margin: 0px;
+	width: 33%;
+	font-size: 150px;
+	font-family: Candara;
+	line-height: 125px;
+}
+
+.container {
+	width: 90%;
+	margin: auto;
+	overflow: hidden;
+}
+
+#project1 {
+	min-height: 200px;
+	background-color: rgb(238, 218, 241);
+	border-bottom: 2px solid rgb(147, 36, 166);
+	font-family: Candara;
+}
+
+#project2 {
+	min-height: 200px;
+	background-color: rgb(238, 218, 241);
+	border-bottom: 2px solid rgb(147, 36, 166);
+	font-family: Candara;
+}
+
+#project3 {
+	min-height: 200px;
+	background-color: rgb(238, 218, 241);
+	border-bottom: 2px solid rgb(147, 36, 166);
+	font-family: Candara;
+}
+
+img {
+	max-width: 25%;
+	max-height: 25%;
+	float: left;
+	margin-bottom: 30px;
+}
+
+#about_me {
+	min-height: 200px;
+	background-color: rgb(238, 218, 241);
+	font-family: Candara;
+}
+
+#boxes {
+	margin-top:20px;
+}
+
+#boxes .box {
+	float:left;
+	width: 30%;
+	padding: 10px;
+}
+
+#boxes .box img {
+	width: 500px;
+}
+
+input {
+	width: 100%;
+	padding: 12px 20px;
+	margin: 8px 0;
+	box-sizing: border-box;
+}
+
+input[type=submit] {
+	background-color: rgb(74, 18, 84);
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+	width: 100%;
+}
+
+form {
+	background-color: rgb(245, 245, 245);
+}
+
+p {
+	font-size: 20px;
+}
+
+.contain {
+	max-width: 300px;
+	text-align: center;
+}
+
+.category {
+	position: relative;
+	display: inline-block;
+	float: left;
+	padding: 10px;
+}
+
+.column {
+	float: left;
+	width: 33.3%;
+	padding: 5px;
+}
+
+.column img{
+	width: 200px;
+	border: 5px solid white;
+}
+
+* {
+	box-sizing: border-box;
+}
+
